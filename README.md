@@ -13,22 +13,22 @@ Appendix:
 searching engine and their keyword
 
 ```
-engine        				site        			keywords
-百度    				www.baidu.com    			百度
-谷歌    				www.google.com    			谷歌
-stackoverflow    		www.stackoverflow.com    	stackOF
-wikipedia    			www.wikipedia.com    		wiki
-duckduckgo    			wwww.duckduckgo.com    		duckdgo
-必应    				www.bing.com    			必应
-github    				github.com    				github
-码云    				gitee.com    				码云
-知乎    				zhihu.com    				知乎
-csdn    				csdn.com    				csdn
-简书    				jianshu.com    				简书
-掘金    				juejin.im    				掘金
-博客园    				cnblogs.com    				博客园
-oschina    				oschina.com    				oschina
-bilibili    			bilibili.com    			bilibili
+engine        				site                keywords
+百度                  baidu.com    				  百度
+谷歌                  google.com    				谷歌
+stackoverflow        stackoverflow.com    stackOF
+wikipedia            wikipedia.org         wiki
+duckduckgo           duckduckgo.com       duckdgo
+必应                 bing.com               必应
+github              github.com            github
+码云                 gitee.com              码云
+知乎                 zhihu.com              知乎
+csdn                csdn.com               csdn
+简书                 jianshu.com            简书
+掘金                 juejin.im              掘金
+博客园               cnblogs.com            博客园
+oschina             oschina.com           oschina
+bilibili            bilibili.com          bilibili
 ```
 
 多重搜索引擎主页
@@ -44,20 +44,20 @@ bilibili    			bilibili.com    			bilibili
 附录:
 搜索引擎以及对应的关键字
 ```
-搜索引擎        			网站        			关键字
-百度    				baidu.com    				百度
-谷歌    				google.com    				谷歌
-stackoverflow    		stackoverflow.com    		stackOF
-wikipedia    			wikipedia.org    			wiki
-duckduckgo    			duckduckgo.com    			duckdgo
-必应    				bing.com    				必应
-github    				github.com    				github
-码云    				gitee.com    				码云
-知乎    				zhihu.com    				知乎
-csdn    				csdn.com    				csdn
-简书    				jianshu.com    				简书
-掘金    				juejin.im    				掘金
-博客园    				cnblogs.com    				博客园
-oschina    				oschina.com    				oschina
-bilibili    			bilibili.com    			bilibili
+搜索引擎                  网站               关键字
+百度                  baidu.com    				  百度
+谷歌                  google.com    				谷歌
+stackoverflow        stackoverflow.com    stackOF
+wikipedia            wikipedia.org         wiki
+duckduckgo           duckduckgo.com       duckdgo
+必应                 bing.com               必应
+github              github.com            github
+码云                 gitee.com              码云
+知乎                 zhihu.com              知乎
+csdn                csdn.com               csdn
+简书                 jianshu.com            简书
+掘金                 juejin.im              掘金
+博客园               cnblogs.com            博客园
+oschina             oschina.com           oschina
+bilibili            bilibili.com          bilibili
 ```

@@ -9,36 +9,51 @@ function search(){
   keyword = keyword.Trim()
   if(keyword.startWith("百度 ")){
     selecter.value = "百度"
+    keyword = keyword.replace("百度", "")
   }else if(keyword.startWith("谷歌 ")){
     selecter.value = "谷歌"
+    keyword = keyword.replace("谷歌", "")
   }else if(keyword.startWith("stackof ")){
     selecter.value = "stackOF"
+    keyword = keyword.replace("stackof", "")
   }else if(keyword.startWith("wiki")){
     selecter.value = "wiki"
+    keyword = keyword.replace("wiki", "")
   }else if(keyword.startWith("duckduckgo ")){
     selecter.value = "duckdgo"
+    keyword = keyword.replace("duckduckgo", "")
   }else if(keyword.startWith("必应 ")){
     selecter.value = "必应"
+    keyword = keyword.replace("必应", "")
   }else if(keyword.startWith("github ")){
     selecter.value = "github"
+    keyword = keyword.replace("github", "")
   }else if(keyword.startWith("码云")){
     selecter.value = "码云"
+    keyword = keyword.replace("码云", "")
   }else if(keyword.startWith("知乎 ")){
     selecter.value = "知乎"
+    keyword = keyword.replace("知乎", "")
   }else if(keyword.startWith("csdn ")){
     selecter.value = "csdn"
+    keyword = keyword.replace("csdn", "")
   }else if(keyword.startWith("简书 ")){
     selecter.value = "简书"
+    keyword = keyword.replace("简书", "")
   }else if(keyword.startWith("掘金 ")){
     selecter.value = "掘金"
+    keyword = keyword.replace("掘金", "")
   }else if(keyword.startWith("博客园 ")){
     selecter.value = "博客园"
+    keyword = keyword.replace("博客园", "")
   }else if(keyword.startWith("oschina ")){
     selecter.value = "oschina"
+    keyword = keyword.replace("oschina", "")
   }else if(keyword.startWith("bilibili")){
     selecter.value = "bilibili"
+    keyword = keyword.replace("bilibili", "")
   }
-  
+  keyword = keyword.Trim()
   
   var url = ""
   switch(selecter.value){

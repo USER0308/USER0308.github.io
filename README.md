@@ -16,9 +16,9 @@ searching engine and their keyword
 engine                site              keywords
 百度                  baidu.com             百度
 谷歌                  google.com            谷歌
-stackoverflow        stackoverflow.com    stackOF
+stackoverflow        stackoverflow.com    stackof
 wikipedia            wikipedia.org         wiki
-duckduckgo           duckduckgo.com       duckdgo
+duckduckgo           duckduckgo.com       duckduckgo
 必应                 bing.com               必应
 github              github.com            github
 码云                 gitee.com              码云
@@ -47,9 +47,9 @@ bilibili            bilibili.com          bilibili
 搜索引擎                  网站               关键字
 百度                  baidu.com             百度
 谷歌                  google.com            谷歌
-stackoverflow        stackoverflow.com    stackOF
+stackoverflow        stackoverflow.com    stackof
 wikipedia            wikipedia.org         wiki
-duckduckgo           duckduckgo.com       duckdgo
+duckduckgo           duckduckgo.com       duckduckgo
 必应                 bing.com               必应
 github              github.com            github
 码云                 gitee.com              码云

@@ -1,44 +1,105 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<title>resume</title>
-</head>
-<body>
-	<h1>Xiaojian Liang</h1>
-	<hr/>
-	<h2> 基本信息 </h2>
-		<div>
-			姓名:<br/>
-			学历: 本科大三 (2018)<br/>
-			手机:<br/>
-			邮箱: xiaojian.liang@yandex.com<br/>
-			主页:<a href="www.someone-like.me">www.someone-like.me</a><br/>
-			github:<a href="https://github.com/USER0308">https://github.com/USER0308</a><br/>
-		</div>
-	<hr/>
-	<h2> 技术能力 </h2>
-		<div>
-		</div>
-	<hr/>
-	<h2> 项目作品 </h2>
-		<div>
-			大二: 基于安卓平台的踢球游戏 App 深信服杯优胜奖 <br/>
-			大二暑假: 基于 Django 和 Boostrapt 的 BBS 数据库大作业 <br/>
-			大三: 基于区块链的病例共享平台 区块链 demo<br/>
-			大三: 基于区块链的跨企业间信息共享 <a href="http://www2.scut.edu.cn/sse/2017/1229/c3405a243624/page.htm">2017 全国黑客马拉松二等奖 </a><br/>
-			大三: 城市自行车的出行行为分析及效率优化 <a href="http://www2.scut.edu.cn/sse/2018/0105/c3405a246140/page.htm">2017CCF 大数据与计算智能大赛二等奖 </a><br/>
-			大三: 基于 Django 和 VUE.js 的图书信息管理系统 IT 项目管理大作业 <br/>
-		</div>
-	<hr/>
-	<h2> 个人经历 </h2>
-		<div>
-			大一: 加入软件学院 IBM 主机创新俱乐部 <br/>
-			大二: 担任软件学院 IBM 主机创新俱乐部秘书部部长 <br/>
-			大二: 学校网络中心勤工俭学 <br/>
-			大二: 加入软件学院区块链小组实验室 <br/>
-			大三: 学校图书馆勤工俭学 <br/>
-			大三: 凭借病例共享平台进驻学院创业创新基地 <br/>
-		</div>
-	<hr/>
-</body>
-</html>
+  
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>search you like</title>
+    <base target="_blank" />
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+    
+  </head>
+  
+  <body>
+    <div class="container">
+        <div class="col-md-12 ">
+            <h1>search</h1>
+            <div id="app">
+              <div id="search_bar">
+                  <select id="selectpicker">
+                    <option>百度</option>
+                    <option>谷歌</option>
+                    <option>stackOF</option>
+                    <option>wiki</option>
+                    <option>duckdgo</option>
+                    <option>必应</option>
+                    <option>github</option>
+                    <option>码云</option>
+                    <option>知乎</option>
+                    <option>csdn</option>
+                    <option>简书</option>
+                    <option>掘金</option>
+                    <option>博客园</option>
+                    <option>oschina</option>
+                    <option>bilibili</option>
+                  </select>
+                  <input type="text" id="keyword" placeholder="search what you like...">
+                  <button id="btn1" onclick="search()">确定</button>
+              </div>
+                
+            </div>
+          </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="js/javascript.js"></script>
+    <script src="js/vue-2.6/dist/vue.js"></script>
+    <script type="text/javascript">
+      new Vue({
+        el: '#app',
+        data: {
+          message: 'search what you like...'
+        }
+      });
+    </script>
+    <script type="text/javascript">
+      $('#keyword').bind('keydown', function (event) {
+        var event = window.event || arguments.callee.caller.arguments[0];
+        if (event.keyCode == 13){
+          search();
+        }
+      });
+    </script>
+    <script type="text/javascript">
+      String.prototype.endWith=function(s){
+      if(s==null||s==""||this.length==0||s.length>this.length)
+        return false;
+      if(this.substring(this.length-s.length)==s)
+        return true;
+      else
+        return false;
+      return true;
+    }
+
+    String.prototype.startWith=function(s){
+      if(s==null||s==""||this.length==0||s.length>this.length)
+      return false;
+      if(this.substr(0,s.length)==s)
+        return true;
+      else
+        return false;
+      return true;
+    }
+
+    String.prototype.Trim = function(){  
+      return this.replace(/(^\s*)|(\s*$)/g, "");  
+    }
+    String.prototype.LTrim = function(){
+      return this.replace(/(^\s*)/g, "");  
+    }
+    String.prototype.RTrim = function(){  
+      return this.replace(/(\s*$)/g, "");  
+    }
+    </script>
+    <script type="text/javascript">
+      window.onload = function(){
+        document.getElementById("keyword").focus()
+      }
+    </script>
+  </body>
+  
+  
+  
+  </html>

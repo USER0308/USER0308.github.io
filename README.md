@@ -13,9 +13,9 @@ Appendix:
 searching engine and their keyword
 
 ```
-engine        				site                keywords
-百度                  baidu.com    				  百度
-谷歌                  google.com    				谷歌
+engine                site              keywords
+百度                  baidu.com             百度
+谷歌                  google.com            谷歌
 stackoverflow        stackoverflow.com    stackOF
 wikipedia            wikipedia.org         wiki
 duckduckgo           duckduckgo.com       duckdgo
@@ -45,8 +45,8 @@ bilibili            bilibili.com          bilibili
 搜索引擎以及对应的关键字
 ```
 搜索引擎                  网站               关键字
-百度                  baidu.com    				  百度
-谷歌                  google.com    				谷歌
+百度                  baidu.com             百度
+谷歌                  google.com            谷歌
 stackoverflow        stackoverflow.com    stackOF
 wikipedia            wikipedia.org         wiki
 duckduckgo           duckduckgo.com       duckdgo
